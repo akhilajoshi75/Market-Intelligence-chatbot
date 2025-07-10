@@ -37,7 +37,7 @@ o	PDL_API_KEY (People Data Labs)
 ________________________________________
 Installation & Setup
 1.	Clone the repo:
- 	git clone https://github.com/akhilajoshi75/market_intel_chatbot.git
+ 	git clone https://github.com/akhilajoshi75/Market-Intelligence-chatbot
 cd market_intel_chatbot
 2.	Create a virtual environment (optional but recommended):
  	python -m venv .venv
