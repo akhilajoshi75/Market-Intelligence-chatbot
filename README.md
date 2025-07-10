@@ -1,7 +1,7 @@
 Market Intelligence Chatbot
 A modular, agentic chatbot for real-time market intelligence—designed for startup founders, investors, and competitive analysts. It combines LLM-powered intent detection and synthesis with social listening, sentiment analysis, and company enrichment using People Data Labs. All conversations are persisted to SQLite, and the architecture is fully containerized for easy deployment.
 ________________________________________
-🚀 Features
+Features
 •	Natural-Language Queries: Ask in plain English about market trends, competitor data, or social sentiment.
 •	Real-Time Social Listening: Fetches live Reddit posts, analyzes sentiment with VADER, and visualizes results.
 •	Company Enrichment: Retrieves company profiles (description, headcount, revenue, funding) via People Data Labs.
@@ -10,7 +10,7 @@ ________________________________________
 •	Modular Architecture: Easily extend with new agents (e.g. Twitter, News, Crunchbase) or swap out LLM backends.
 •	Containerized Deployment: Simple Dockerfile for building and running anywhere.
 ________________________________________
-📁 Project Structure
+Project Structure
 market_intel_chatbot/
 ├── app.py               # Main Streamlit application
 ├── requirements.txt     # Python dependencies
@@ -26,7 +26,7 @@ market_intel_chatbot/
 └── utils/               # Configuration & environment
     └── config.py
 ________________________________________
-⚙️ Prerequisites
+Prerequisites
 •	Python 3.9+
 •	Streamlit for the UI
 •	API Keys:
@@ -35,9 +35,9 @@ o	REDDIT_CLIENT_ID & REDDIT_CLIENT_SECRET
 o	PDL_API_KEY (People Data Labs)
 •	.env file at project root (not committed to Git)
 ________________________________________
-🛠️ Installation & Setup
+Installation & Setup
 1.	Clone the repo:
- 	git clone https://github.com/YOUR_USERNAME/market_intel_chatbot.git
+ 	git clone https://github.com/akhilajoshi75/market_intel_chatbot.git
 cd market_intel_chatbot
 2.	Create a virtual environment (optional but recommended):
  	python -m venv .venv
